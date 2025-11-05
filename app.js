@@ -19,6 +19,8 @@ app.listen(process.env.PORT || 3000, () => {
 
 app.use('/student', studentRoutes);
 app.use('/book', bookRoutes);
+
+
 /*try{
 app.listen(port, () => {
     console.log(`listening to port 3000...`);
